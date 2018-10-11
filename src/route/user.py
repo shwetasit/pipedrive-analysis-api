@@ -7,5 +7,6 @@ user_blueprint_api = Api(user_blueprint)
 
 
 from resource.user import UserListAPI
-user_blueprint_api.add_resource(UserListAPI, '/user')
+user_blueprint_api.add_resource(UserListAPI, '/deals')
+
 
