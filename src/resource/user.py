@@ -16,8 +16,6 @@ domain_url="https://api.pipedrive.com/"
 client = Client(api_base_url=domain_url)
 client.set_token(api_token)
 
-
-
 class UserListAPI(Resource):
     def get(self):
 
@@ -34,7 +32,7 @@ class UserListAPI(Resource):
         #return Analysis.openDeal(get_deals)
         #return Analysis.closeDeal(get_deals)
         #return Analysis.wonDeal(get_deals)
-        return Analysis.pandasdemo(get_deals)
+        deala2 = Analysis.pandasdemo(get_deals)
 
        # return Analysis.openDeal(get_deals)
 
